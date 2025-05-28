@@ -1,0 +1,88 @@
+/* Reset and base styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-bottom: 2px solid #e0e0e0;
+    border-color: #E0B0FF;
+    border-radius: 4px;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5e4ae3;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #5e4ae3;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.action-btn {
+    padding: 8px 15px;
+    border: 1px solid #ff4081;
+    background-color: #ff4081;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #e03570;
+}
+.action-btn {
+    text-decoration: none; /* Removes underline */
+}
+.notification-icon {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 9px;
+    height: 9px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  

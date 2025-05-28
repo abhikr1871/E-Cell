@@ -1,0 +1,65 @@
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    background-color: #f3f4f6;
+    padding: 16px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    top: 0;
+    left: -260px;
+    overflow-y: auto;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-circle {
+    font-size: 1.5rem;
+  }
+  
+  .username {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .sidebar-notifications {
+    margin-top: 20px;
+  }
+  
+  .notification-item {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .notification-item:hover {
+    background-color: #e0f2fe;
+  }
+  
+  .no-notif {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    float: right;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  

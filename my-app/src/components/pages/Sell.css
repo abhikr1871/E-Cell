@@ -1,0 +1,87 @@
+/* Container for the entire sell page */
+.sell-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f8ff;
+}
+
+.sell-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 100px;
+}
+
+.sell-form {
+    width: 100%;
+    padding: 2rem;
+    color: #333;
+}
+
+.sell-form h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.sell-form label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.input-box {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.sell-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #5e4ae3;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+.sell-button:hover {
+    background-color: #3e32b3;
+}
+
+.upload-label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Optional: Additional styles for spacing and typography */
+textarea.input-box {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.sell-message {
+    text-align: center;
+    color: #3e32b3;
+    margin-top: 1rem;
+}
